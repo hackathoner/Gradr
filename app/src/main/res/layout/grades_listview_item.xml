@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:text="Chapter 8 Test" />
+
+    <TextView
+        android:id="@+id/points"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_marginRight="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:text="47/53" />
+
+    <TextView
+        android:id="@+id/gradeAverage"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:text="93.45%" />
+
+</RelativeLayout>

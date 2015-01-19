@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="#e74c3c"
+    android:id="@+id/rel">
+    <TextView
+        android:layout_width="60dp"
+        android:text=""
+        android:id="@+id/predictCovering"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:text=""
+        android:id="@+id/addCovering"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:text=""
+        android:id="@+id/backCovering"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="50dp"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="AP Calculus BC"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="50dp"
+        android:textColor="#ecf0f1"
+        />
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="20dp"
+        android:maxWidth="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:maxHeight="30dp"
+        android:layout_height="20dp"
+        android:src="@drawable/fron"
+        />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/plus"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+         />
+    <ImageView
+        android:id="@+id/predict"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/p"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="#e74c3c" >
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Grades"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ecf0f1"
+         />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/addClassCovering"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:maxWidth="30dp"
+        android:maxHeight="30dp"
+        android:layout_height="20dp"
+        android:src="@drawable/plus"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/addnew"
+        android:layout_toStartOf="@+id/addnew" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Class"
+        android:textColor="#ecf0f1"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/addnew"
+        android:layout_alignTop="@+id/title_text"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ecf0f1"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/assignment"
+        android:padding="20dp"
+        android:singleLine = "true"
+        android:hint="Assignment Name"
+        android:layout_margin="20dp"
+        android:background="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/pointscorrect"
+        android:padding="20dp"
+        android:singleLine = "true"
+        android:layout_marginRight="20dp"
+        android:hint="Points correct"
+        android:background="@android:color/white"
+        android:layout_below="@+id/assignment"
+        android:layout_alignLeft="@+id/assignment"
+        android:layout_alignStart="@+id/assignment" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/totalpoints"
+        android:padding="20dp"
+        android:singleLine = "true"
+        android:hint="Total Points"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/pointscorrect"
+        android:layout_alignLeft="@+id/pointscorrect"
+        android:layout_alignStart="@+id/pointscorrect" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Grade"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/button"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/flat_selector"
+        android:layout_below="@+id/totalpoints"
+         />
+
+</RelativeLayout>
