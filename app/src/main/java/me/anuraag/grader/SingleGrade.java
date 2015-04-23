@@ -14,9 +14,7 @@ public class SingleGrade {
 
     }
     public double getPercentage(){
-        DecimalFormat f = new DecimalFormat("##.00");
-        double toReturn = Double.parseDouble(f.format((this.pointsRight/this.totalPoints)*100));
-        return toReturn  ;
+        return Math.floor((this.pointsRight/this.totalPoints)*10000)/100;
     }
     public double getPointsRight(){
         return this.pointsRight;
